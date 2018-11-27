@@ -1,0 +1,157 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 1500%;
+  background: #7ab2ba;
+}
+
+h2 {
+  /* Titulo de los coontenidos en columna 2*/
+  color: #4c0648;
+  background-color: #bcc3c4;
+  text-decoration: underline;
+  font-family: 'Domine', serif;
+  font-size: 150%;
+  box-shadow: 3px 2px 4px black;
+}
+
+p {
+  line-height: 35px;
+  font-size: 20px
+}
+
+#column1 {
+  /*Armado de toda la columna 1,(la izquierda/menu)*/
+  text-align: center;
+  height: 100%;
+  width: 22%;
+  background: linear-gradient(90deg, #0b191c, #7ab2ba);
+  float: left;
+  position: fixed;
+  margin: 0.5px;
+}
+
+#img1 {
+  /* Imagen de perfil del CV*/
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 10px;
+  border-radius: 50%;
+  border: solid;
+  #ffaafb;
+  width: 58%;
+  height: 26%;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+h1 {
+  /*Nombre de la persona a modo de titulo*/
+  margin: 0;
+  padding: 0;
+  text-shadow: 3px 2px 4px black;
+  background: linear-gradient(90deg, #0b191c, #7ab2ba);
+  color: #9b0096;
+  font-family: 'Shrikhand', cursive;
+  font-size: 300%;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 22%;
+  background: linear-gradient(90deg, #0b191c, #7ab2ba);
+  position: fixed;
+  height: auto;
+  overflow: auto;
+  font-family: 'Domine', serif;
+  box-shadow: 3px 12px 54px #1f373a;
+  border-radius: 14px;
+}
+
+#menu li a {
+  display: block;
+  color: #000;
+  padding: 12px 16px;
+  text-decoration-style: dotted;
+  text-align: center;
+  height: 50%;
+  font-size: 130%;
+  box-shadow: 3px 12px 54px #1f373a;
+  border-radius: 14px;
+}
+
+#menu li a.active {
+  background-color: #4c0648;
+  color: white;
+}
+
+#menu li a:hover:not(.active) {
+  background: linear-gradient(#0b191c, #7ab2ba);
+  color: white;
+}
+
+#datospersonales {
+  margin-top: 200px;
+  padding: 0px;
+  list-style-type: none;
+  font-size: 100%;
+  font-family: 'Domine', serif;
+  z-index: 2;
+}
+
+h4 {
+  color: #011416;
+  text-decoration: underline;
+  font-family: 'Domine', serif;
+  font-size: 150%
+}
+
+h3 {
+  color: #ffaafb;
+  text-shadow: 3px 2px 3px black;
+  font-family: 'Domine', serif;
+  font-size: 100%
+}
+
+#contactos li i {
+  line-height: 35px;
+}
+
+#column2 {
+  height: 100%;
+  width: 80%;
+  background-color: #7ab2ba;
+  float: right;
+  margin: 0.5px;
+}
+
+#portada {
+  width: 100%;
+  height: 8%;
+}
+
+#cuerpocolumn2 {
+  margin: 20px;
+  padding: 50px;
+}
+
+.estilo {
+  margin-top: 25px;
+  padding: 2px 2px 42px 22px;
+  font-family: 'Source Serif Pro', serif;
+  color: #1b2828;
+  font-size: 20px
+}
+
+#lengua {
+  line-height: 45px;
+}
+
+#formacion ul {
+  line-height: 45px;
+  text-align: left;
+}
